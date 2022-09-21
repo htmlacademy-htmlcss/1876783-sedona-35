@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Анна Долгова](https://up.htmlacademy.ru/htmlcss/35/user/1876783).
-* Наставник: `Александр Карташов` (https://htmlacademy.ru/profile/id77080).
+* Наставник: [Александр Карташов] (https://htmlacademy.ru/profile/id77080).
 
 ---
 
