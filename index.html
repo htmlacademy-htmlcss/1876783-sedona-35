@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
   </head>
 
   <body>
@@ -54,7 +55,7 @@
       <main class="main-container main-index">
         <section class="intro">
           <h1 class="visually-hidden">Добро пожаловать в великолепную Седону.</h1>
-          <img class="intro-img" src="images/welcome.svg" width="458" height="352"
+          <img class="intro-img" src="images/background/welcome.svg" width="458" height="352"
             alt="Добро пожаловать в великолепную Седону, потому что Гранд-Каньон хуже.">
         </section>
         <!-- преимущества -->
@@ -68,7 +69,7 @@
               <h3 class="advantage-title">Настоящий городок</h3>
               <p class="advantage-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
-            <img class="advantage-img" src="images/index-photo/index-photo-1.jpg" width="800" height="384"
+            <img class="advantage-image" src="images/index-photo/index-photo-1.jpg" width="800" height="384"
               alt="Домик с балкончиками на фоне гор.">
             <ul class="advantage-elements">
               <li class="advantage-element">
@@ -86,7 +87,7 @@
             </ul>
           </li>
           <li class="advantages-item">
-            <img class="advantage-img" src="images/index-photo/index-photo-2.jpg" width="800" height="384"
+            <img class="advantage-image" src="images/index-photo/index-photo-2.jpg" width="800" height="384"
               alt="Узкий мост над обрывом.">
             <div class="advantage-wrapper">
               <h3 class="advantage-title">Там есть<br>мост дьявола</h3>
@@ -124,8 +125,8 @@
           <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
             <p class="subscribe-form-wrapper">
               <label class="visually-hidden" for="subscribe-email">Email.</label>
-              <input class="field" type="email" name="subscribe-email" id="subscribe-email" placeholder="Ваш e-mail"
-                required>
+              <input class="subscribe-field" type="email" name="subscribe-email" id="subscribe-email"
+                placeholder="Ваш e-mail" required>
               <button class="button button-blue subscribe-button" type="submit">Подписаться</button>
             </p>
           </form>
@@ -176,7 +177,7 @@
             <h2 class="visually-hidden">Cайт разработчика.</h2>
             <a class="copyright-link" href="https://htmlacademy.ru/">
               <span class="visually-hidden">Перейти на сайт html-academy.</span>
-              <svg aria-hidden="true" focusable="false" width="115" height="34" viewBox="0 0 115 34" fill="currentColor"
+              <svg aria-hidden="true" focusable="false" width="115" height="33" viewBox="0 0 115 33" fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M0 13.3v2.6h2.5v-2.6H0ZM11.6 4.9c-1.6 0-2.8.7-3.6 1.7h-.1V.4h-2v15.5h2v-5.3C7.9 8.5 9.2 7 11.2 7c1.8 0 2.9 1.4 2.9 3.2v5.7h2V9.8c.1-3-1.8-5-4.5-5ZM26.6 5.2h-4.8V1.5h-2v3.8h-1.9v2h1.9v6c0 1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1V7.2h4.8v-2ZM41.1 5c-1.6 0-2.9.8-3.5 2h-.1a3.7 3.7 0 0 0-3.4-2c-1.4 0-2.5.8-3.1 1.8h-.1V5.2H29v10.6h2v-5.4c0-2 1-3.5 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2V9.3c.1-2.5-1.4-4.3-3.9-4.3ZM47.8 13c0 1.8 1 2.8 2.8 2.8h2v-2h-1.7c-.7 0-1.1-.4-1.1-1.1V.4h-2V13ZM28.9 20a4.9 4.9 0 0 0-3.9-1.7c-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-2h.1v1.7h2V18.6h-2V20Zm-3.6 7.5a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c0 1.9-1.4 3.6-3.6 3.6ZM44.2 22.4c-.5-2.4-2.6-4.1-5.4-4.1a5.4 5.4 0 0 0-5.6 5.6c0 3 2.2 5.6 5.6 5.6 2.8 0 4.9-1.8 5.4-4.2h-2.1a3.4 3.4 0 0 1-3.3 2.3 3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6 1.6 0 2.8 1 3.3 2.2h2.1v-.2ZM55.1 20a4.9 4.9 0 0 0-3.9-1.7c-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-2h.1v1.7h2V18.6h-2V20Zm-3.6 7.5a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c0 1.9-1.5 3.6-3.6 3.6ZM68.7 20.2a5 5 0 0 0-3.9-2c-3.1 0-5.4 2.4-5.4 5.7 0 3.3 2.2 5.6 5.4 5.6 1.7 0 3-.8 3.8-1.8h.1v1.5h2V13.8h-2v6.4Zm-3.6 7.3a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c-.1 2-1.5 3.6-3.6 3.6ZM78.3 18.3a5.4 5.4 0 0 0-5.5 5.6c0 3 2.1 5.6 5.5 5.6 2.5 0 4.5-1.3 5.2-3.6h-2.1c-.5 1-1.6 1.6-3 1.6-1.9 0-3.3-1.3-3.4-3h8.8c.2-3.5-2-6.2-5.5-6.2Zm0 1.9c1.7 0 3 1 3.3 2.6h-6.5a3.2 3.2 0 0 1 3.2-2.6ZM98.2 18.3a4 4 0 0 0-3.6 2h-.1c-.6-1.2-1.8-2-3.4-2-1.4 0-2.5.7-3.1 1.8v-1.5h-1.9v10.6h2v-5.4c0-2 1-3.4 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.6-1.4-4.4-3.9-4.4ZM109.4 27.4l-3.6-9h-2.2l4.8 11.7c-.3.9-.7 1.2-1.7 1.2h-2.5v2h2.5c1.8 0 2.8-.8 3.5-2.6l4.7-12.2h-2.1l-3.4 8.9Z" />
@@ -185,9 +186,9 @@
           </section>
         </div>
       </footer>
-
+      <!-- модальное окно -->
       <div class="modal-container modal-container-close">
-        <div class="modal modal-auth">
+        <div class="modal modal-search">
           <button class="modal-close-button" type="button">
             <svg class="icon-close" aria-hidden="true" focusable="false" width="21" height="21" viewBox="0 0 21 21"
               fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -204,14 +205,14 @@
                   <label class="form-label" for="arrival-date">Дата заезда:</label>
                   <input class="search-form-field" type="text" id="arrival-date" name="arrival-date"
                     placeholder="Укажите дату" value="27 апреля 2020" required>
-                  <button class="date" type="button"></button>
+                  <button class="date" type="button"><span class="visually-hidden">Календарь.</span></button>
                   <span class="message error-message">Мы не можем отправить вас в прошлое.</span>
                 </p>
                 <p class="field-group">
                   <label class="form-label" for="departure-date">Дата выезда:</label>
                   <input class="search-form-field" type="text" id="departure-date" name="departure-date"
                     placeholder="Укажите дату" value="1 сентября 2023" required>
-                  <button class="date" type="button"></button>
+                  <button class="date" type="button"><span class="visually-hidden">Календарь.</span></button>
                   <span class="message">На эти даты есть свободные номера. Пока есть.</span>
                 </p>
               </div>
@@ -241,7 +242,8 @@
                     <span class="tooltip">
                       <span class="visually-hidden">Пояснение - возраст детей, которые учитываются при заселении в
                         гостиницу</span>
-                      <button class="tooltip-toggle button-blue" type="button" aria-labelledby="tooltip-label-children">
+                      <button class="button button-blue tooltip-toggle" type="button"
+                        aria-labelledby="tooltip-label-children">
                         <svg class="tooltip-icon" aria-hidden="true" focusable="false" width="20" height="20"
                           viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path fill-rule="evenodd" clip-rule="evenodd" d="M9 4h2v2H9V4Zm2 12H9V7h2v9Z" />
