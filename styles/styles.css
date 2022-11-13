@@ -327,6 +327,10 @@ img {
   color: #000000;
 }
 
+.advantage-wrapper .advantage-title{
+  color: #FFFFFF;
+}
+
 .advantage-description {
   display: flex;
   flex-direction: column;
